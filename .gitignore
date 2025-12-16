@@ -176,3 +176,6 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 sensor_data/
 sensor_data_bronze/
+sensor_data_silver/
+sensor_data_gold/
+logs/
