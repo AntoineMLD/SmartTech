@@ -1,30 +1,3 @@
-SmartTech – Pipeline IoT Temps Réel avec Spark, Kafka et Delta Lake
-
-Contexte du Projet
-SmartTech simule un système IoT pour bâtiments intelligents, avec :
-
-Capteurs (température, humidité, énergie, CO2).
-Traitement temps réel pour détecter des anomalies et alimenter des tableaux de bord.
-Historisation des données pour analyses ultérieures.
-Ce dépôt implémente deux pipelines pour répondre à un brief académique en deux parties :
-
-
-# SmartTech – Pipeline IoT Temps Réel avec Spark, Kafka et Delta Lake
-
-Bibliothèques Python :
-
-
-pip install pyspark delta-spark kafka-python
-Ajoute ces lignes à ton ~/.bashrc ou ~/.zshrc :
-
-export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64/"
-export PATH="$JAVA_HOME/bin:$PATH"
-
-
-source ~/.bashrc  # ou source ~/.zshrc
-
-
-Utilisation
 # SmartTech – Pipeline IoT Temps Réel avec Spark, Kafka et Delta Lake
 
 
